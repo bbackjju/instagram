@@ -1,10 +1,30 @@
 h2{
     color : red;
+    text-decoration: overline underline green;
 }
 .highlight{
     border:solid;
 }
 #profile{
+    border:inset;
+    border-color: #7011ff;
+}
+#profile{
+    text-align: center;
+}
+.icon{
+    font-style: italic;
+    font-weight: 900;
+}
+.idname{
+    font-variant: small-caps;
+    font-family: "Lato";
+}
+.cat{
     border:solid;
-    border-color: blue;
+    border-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
