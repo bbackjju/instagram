@@ -1,7 +1,6 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div>
@@ -9,13 +8,13 @@
 width="100px"/>
             <input type="search" value="검색"/>
         </div>
-        <div id="profile" style="border-top-width: 5px; border-bottom-width: 5px; border-bottom-color: black;">
+        <div id="profile">
             <div class="cat">
-                <img style="width: 100px; border-radius: 5px 5px 40px 40px;" src="image/profile.jpg" 
-width="50"/>
+                <img src="image/profile.jpg" 
+width="50" class="circle_pic"/> 
             </div>
-            <div>
-                <h2 class="idname">Half_Bottle</h2>
+            <div class="profile_info">
+                <div id="idname">Half_Bottle</div>
                 <button>프로필 편집</button>
             </div>
         </div>
@@ -32,10 +31,12 @@ width="50"/>
                 </a>
             </p>
         </div>
-        <div>
+        <div id="highlight_area">
             <div class="highlight">
                 <div>
-                    <img src="image/hl 1.jpg" height="35px"/>
+                    <div class="highlight_pic">
+                        <img src="image/hl 1.jpg" class="circle_pic"/>
+                    </div>
                 </div>
                 <div>
                     😎
@@ -43,40 +44,47 @@ width="50"/>
             </div>
             <div class="highlight">
                 <div>
-                    <img src="image/hl 2.jpg" height="35px"/>
+                    <div class="highlight_pic">
+                        <img src="image/hl 2.jpg" class="circle_pic"/>
+                    </div>
                 </div>
                 <div>
                     😍
                 </div>
             </div>
+            <div></div>
         </div>
-        <div>
-            <p>
-                <div>
+        <div id="stat_bar">
+                <div class="stat">
                     게시물<br/>
                     133
                 </div>
-                <div>
+                <div class="stat"> 
                     팔로워<br/>
                     408
                 </div>
-                <div>
+                <div class="stat">
                     팔로우<br/>
                     189
                 </div>
-            </p>
         </div>
-        <div class="icon" style="border: inset;">아이콘이 들어갈 자리</div>
+        <div class="icon">아이콘이 들어갈 자리</div>
         <div>
-            <img src="image/thumbnails/1.jpg" width="32%"/>
-            <img src="image/thumbnails/2.jpg" width="32%"/>
-            <img src="image/thumbnails/3.jpg" width="32%"/>
-            <img src="image/thumbnails/4.jpg" width="32%"/>
-            <img src="image/thumbnails/5.jpg" width="32%"/>
-            <img src="image/thumbnails/6.jpg" width="32%"/>
-            <img src="image/thumbnails/7.jpg" width="32%"/>
-            <img src="image/thumbnails/8.jpg" width="32%"/>
-            <img src="image/thumbnails/9.jpg" width="32%"/>
+            <div class="thumnail_grid">
+                <img src="image/thumbnails/1.jpg" class="thumnail"/>
+                <img src="image/thumbnails/2.jpg" class="thumnail"/>
+                <img src="image/thumbnails/3.jpg" class="thumnail"/>
+            </div>
+            <div class="thumnail_grid">
+                <img src="image/thumbnails/4.jpg" class="thumnail"/>
+                <img src="image/thumbnails/5.jpg" class="thumnail"/>
+                <img src="image/thumbnails/6.jpg" class="thumnail"/>
+            </div>
+            <div class="thumnail_grid">
+                <img src="image/thumbnails/7.jpg" class="thumnail"/>
+                <img src="image/thumbnails/8.jpg" class="thumnail"/>
+                <img src="image/thumbnails/9.jpg" class="thumnail"/>
+            </div>
         </div>
     </body>
 </html>
