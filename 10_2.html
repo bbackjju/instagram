@@ -1,0 +1,25 @@
+<style>
+    @media(max-width:600px){
+        p{background-color: pink;}
+        .mobile{
+            display: block;
+        }
+        .desktop{
+            display: none;
+        }
+    }
+    @media(min-width:600px){
+        p{background-color: lightblue;}
+        .mobile{
+            display: none;
+        }
+        .desktop{
+            display: block;
+        }
+    }
+</style>
+<img src="image/profile.jpg" width="200px" class="desktop"/>
+<p>
+    화면에 어떻게 표시되나요?
+</p>
+<img src="image/profile.jpg" width="200px" class="mobile"/>
