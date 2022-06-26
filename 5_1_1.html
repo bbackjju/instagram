@@ -2,12 +2,9 @@
     <head>
         <link href="style.css" rel="stylesheet">
         <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
+        <script src="script.js"></script>
     </head>
     <body>
-        <script>
-            console.log("test")
-            alert("오늘 기분은 어떠신가요?")
-        </script>
         <div id="top">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"
 width="100px"/>
@@ -25,7 +22,8 @@ width="100px"/>
 width="50" class="circle_pic"/> 
             </div>
             <div class="profile_info">
-                <div id="idname">Half_Bottle
+                <div id="idname">
+                    <span>Half_Bottle</span>
                     <i class="fas fa-cog"></i>
                 </div>
                 <button>프로필 편집</button>
@@ -34,15 +32,13 @@ width="50" class="circle_pic"/>
         <div>
             
             <p>
-                <strong>
+                <strong id="userInfo">
                 박주한
                 </strong><br/>
-                작가
+                <span id="summary">작가</span>
             </p>
-            <p>
-                <a href="https://needleworm.github.io">
-                needleworm.github.io
-                </a>
+            <p id="profileDetail">
+                github.com//bbackjju
             </p>
         </div>
         <div id="highlight_area">
